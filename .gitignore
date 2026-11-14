@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data
+data/raw/
+data/processed/
+data/encoded/
+*.csv
+*.parquet
+*.jsonl
+
+# Model checkpoints
+*.pt
+*.pth
+*.safetensors
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+# 데이터
+*.csv
+*.jsonl
+*.parquet
+
+# 학습 모델 및 압축 파일
+*.zip
+*.pt
+*.pth
+*.safetensors
+
+# 가상환경
+.venv/
+__pycache__/
+.env

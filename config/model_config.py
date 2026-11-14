@@ -1,0 +1,10 @@
+GLINER_MODEL_NAME = "urchade/gliner_small-v2.1"
+GLINER_THRESHOLD = 0.3
+GLINER_BATCH_SIZE = 16
+
+SENTENCE_TRANSFORMER_MODEL = (
+    "sentence-transformers/all-MiniLM-L6-v2"
+)
+EMBEDDING_BATCH_SIZE = 128
+
+PIPELINE_VERSION = "1.0"
