@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "description": "Baseline: GLiNER Small with original labels",
+  "model": "urchade/gliner_small-v2.1",
+  "config_source": "config/category_config.py",
+  "batch_size": 16,
+  "inference_threshold": 0.3,
+  "label_overrides": {},
+  "post_thresholds": {},
+  "default_post_threshold": 0.3,
+  "dataset": {
+    "name": "reviews_sample_200.csv",
+    "total_reviews": 2200,
+    "sampling": "200 reviews per category",
+    "categories": 11
+  }
+}

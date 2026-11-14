@@ -1,7 +1,6 @@
-
 {
   "version": "v3",
-  "description": "GLiNER Medium v2.1 with descriptive labels",
+  "description": "GLiNER Medium with descriptive labels",
   "model": "urchade/gliner_medium-v2.1",
   "config_source": "config/category_config.py",
   "batch_size": 8,
@@ -21,7 +20,7 @@
   "dataset": {
     "name": "reviews_sample_200.csv",
     "total_reviews": 2200,
-    "sampling": "200 reviews per product category",
+    "sampling": "200 reviews per category",
     "categories": 11
   }
 }
