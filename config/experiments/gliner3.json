@@ -1,0 +1,27 @@
+
+{
+  "version": "v3",
+  "description": "GLiNER Medium v2.1 with descriptive labels",
+  "model": "urchade/gliner_medium-v2.1",
+  "config_source": "config/category_config.py",
+  "batch_size": 8,
+  "inference_threshold": 0.3,
+  "label_overrides": {
+    "skin type": "skin type such as oily dry combination or sensitive skin",
+    "skin condition": "skin condition such as acne eczema or redness",
+    "cosmetic ingredient": "specific cosmetic chemical or botanical ingredient",
+    "skin reaction": "skin reaction such as rash itching swelling or irritation",
+    "physical discomfort": "physical symptom such as pain burning or stinging",
+    "product scent": "product fragrance or scent description",
+    "product defect": "physical product defect such as leakage breakage or damage",
+    "product material": "product packaging or tool material"
+  },
+  "post_thresholds": {},
+  "default_post_threshold": 0.3,
+  "dataset": {
+    "name": "reviews_sample_200.csv",
+    "total_reviews": 2200,
+    "sampling": "200 reviews per product category",
+    "categories": 11
+  }
+}
